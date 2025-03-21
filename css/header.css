@@ -6,10 +6,15 @@
 }
 
 .header__logo {
+  width: 106px;
   font-family: var(--font-second);
   font-weight: 700;
   font-size: 25px;
   text-transform: uppercase;
+  color: var(--color-text);
+}
+
+.header__logo-primary {
   color: var(--color-primary);
 }
 

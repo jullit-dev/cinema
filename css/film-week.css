@@ -1,0 +1,49 @@
+.film-week {
+  padding: 60px 0;
+}
+
+.film-week__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 54px 30px;
+}
+
+.film-week__poster {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.film-week__title {
+  margin-right: 36px;
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: 0.05em;
+}
+
+.film-week__tagline {
+  margin-right: auto;
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 1.4;
+  opacity: 0.6;
+}
+
+.film-week__watch-btn {
+  padding: 25px 112px;
+  border-radius: 6px;
+  background-color: var(--color-second);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-text);
+}
+
+.film-week__watch-trailer {
+  width: 104px;
+  height: 72px;
+  border-radius: 6px;
+  background-color: var(--color-second);
+  background-image: url("../img/play.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
