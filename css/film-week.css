@@ -47,3 +47,52 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 1280px) {
+  .film-week__title {
+    margin-right: auto;
+  }
+
+  .film-week__tagline {
+    order: 1;
+    flex-basis: 40%;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .film-week__watch-trailer {
+    order: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .film-week {
+    padding-top: 30px;
+  }
+
+  .film-week__container {
+    gap: 15px;
+  }
+
+  .film-week__tagline {
+    order: 0;
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .film-week__title {
+    font-size: 48px;
+  }
+  
+  .film-week__watch-btn {
+    padding: 20px 64px;
+    font-size: 16px;
+  }
+
+  .film-week__watch-trailer {
+    width: 60px;
+    height: 60px;
+  }
+}
