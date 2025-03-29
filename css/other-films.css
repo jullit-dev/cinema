@@ -32,6 +32,11 @@
   text-align: center;
 }
 
+.other-films__item:nth-child(even) {
+  position: relative;
+  top: 50px;
+}
+
 .other-films__img {
   border-radius: 10px;
   box-shadow: 0 0 10px 0 var(--color-primary);
@@ -69,6 +74,11 @@
 
   .other-films__list {
     margin-bottom: 90px;
+  }
+
+  .other-films__item:nth-child(even) {
+    position: static;
+    top: auto;
   }
 }
 
