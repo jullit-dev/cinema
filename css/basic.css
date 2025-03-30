@@ -35,15 +35,36 @@ ul {
 a {
   color: inherit;
   text-decoration: none;
+  transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  width: max-content;
 }
 
 a:focus, button:focus {
   outline: none;
 }
 
+a:hover {
+  color: var(--color-primary);
+}
+
+a:focus-visible,
+a:active {
+  box-shadow: 0 0 3px 2px var(--color-primary);
+}
+
 button {
   cursor: pointer;
   border: none;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 0 10px 5px var(--color-primary);
+}
+
+button:focus-visible,
+button:active {
+  box-shadow: 0 0 10px 0 var(--color-primary);
 }
 
 .container {

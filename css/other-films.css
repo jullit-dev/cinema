@@ -24,7 +24,7 @@
   flex-wrap: wrap;
   gap: 40px 30px;
   justify-content: space-between;
-  margin-bottom: 160px;
+  margin-bottom: 210px;
 }
 
 .other-films__item {
@@ -40,6 +40,16 @@
 .other-films__img {
   border-radius: 10px;
   box-shadow: 0 0 10px 0 var(--color-primary);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.other-films__link:hover .other-films__img {
+  box-shadow: 0 0 10px 10px var(--color-primary);
+}
+
+.other-films__link:focus-visible .other-films__img,
+.other-films__link:active .other-films__img {
+  box-shadow: 0 0 20px 10px var(--color-primary);
 }
 
 .other-films__btn {

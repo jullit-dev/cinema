@@ -70,6 +70,7 @@
 
 .regulation__offer,
 .partners__description {
+  max-width: 310px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;

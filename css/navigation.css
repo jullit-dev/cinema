@@ -25,16 +25,6 @@
 
 .navigation__link {
   padding: 2px 7px;
-  transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.navigation__link:hover {
-  color: var(--color-primary);
-}
-
-.navigation__link:focus-visible,
-.navigation__link:active {
-  box-shadow: 0 0 3px 2px var(--color-primary);
 }
 
 .navigation__close {
