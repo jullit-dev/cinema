@@ -41,7 +41,7 @@
   padding-left: 13px;
 }
 
-.header__serch-input:focus {
+.header__serch-input:focus-visible {
   background-color: var(--color-primary);
 }
 
